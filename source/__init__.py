@@ -1,6 +1,7 @@
 import discord
 import time
 import pickle
+from cplclasses import ownercpl
 
 #get a token
 conf = 'n'
@@ -15,4 +16,3 @@ while conf != 'y':
     owner = input("Please input owner id. \n")
     print("You have entered '" + owner + "'. Is this correct?")
     conf = input("(y/n): ")
-
